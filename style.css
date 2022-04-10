@@ -63,3 +63,18 @@ main{
   margin: 15px 0 5px;
 }
 
+@media screen and (max-width: 768px) {
+  main{
+    width: 100%;
+    display: block;
+  }
+
+  .main-content, .main-content:last-child{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .main-content:nth-child(2){
+    margin: 20px auto;
+  }
+}
